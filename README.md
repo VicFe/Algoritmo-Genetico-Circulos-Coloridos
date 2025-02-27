@@ -1,19 +1,30 @@
-Algoritmo Genético - Círculos Coloridos
-Este projeto é uma implementação de um Algoritmo Genético (AG) simples, que simula a evolução de uma população de círculos coloridos. O objetivo é demonstrar como os conceitos de seleção, crossover e mutação podem ser aplicados para evoluir uma população em direção a um objetivo específico.
+# Algoritmo Genético - Círculos Coloridos
 
-Este trabalho foi desenvolvido como parte de um projeto da faculdade, com o intuito de praticar e entender os conceitos de Algoritmos Genéticos.
+Este projeto é uma implementação simples de um **Algoritmo Genético** usando HTML, CSS e JavaScript. O objetivo é evoluir uma população de círculos coloridos, onde os círculos mais escuros têm maior chance de serem selecionados para reprodução. O projeto inclui funcionalidades de **seleção**, **crossover** e **mutação**.
 
-Funcionalidades
-O projeto inclui as seguintes funcionalidades:
+## Funcionalidades
 
-Geração de População Inicial: Gera uma população inicial de círculos coloridos com cores aleatórias.
-Seleção por Roleta: Seleciona os indivíduos mais aptos (círculos mais escuros) para reprodução.
-Crossover: Realiza a combinação de genes (cores) entre dois indivíduos selecionados, utilizando três métodos diferentes:
-Um Ponto: Combina metade dos genes de um pai com a outra metade do outro.
-Uniforme: Combina genes aleatoriamente de ambos os pais.
-Aritmético: Combina genes através da média aritmética dos valores dos pais.
-Mutação: Aplica mutações nos genes dos indivíduos, utilizando três métodos diferentes:
-Aleatória: Altera completamente a cor do círculo.
-Pequena: Altera levemente a cor do círculo.
-Dirigida: Reduz a intensidade das cores do círculo.
-Como Executar
+1. **Geração de População Inicial**:
+   - Gera uma população inicial de círculos com cores aleatórias.
+
+2. **Seleção por Roleta**:
+   - Seleciona os círculos mais escuros (com base na aptidão) para reprodução.
+
+3. **Crossover**:
+   - Aplica três métodos de crossover:
+     - **Um Ponto**: Combina partes de dois círculos.
+     - **Uniforme**: Combina características aleatórias de dois círculos.
+     - **Aritmético**: Calcula a média das características de dois círculos.
+
+4. **Mutação**:
+   - Aplica três tipos de mutação:
+     - **Aleatória**: Altera completamente a cor do círculo.
+     - **Pequena**: Faz pequenas alterações na cor do círculo.
+     - **Dirigida**: Escurece a cor do círculo.
+
+5. **Interface Simples**:
+   - Botões para gerar população, aplicar crossover, mutação e seleção.
+
+## Como Usar
+
+1. ****
