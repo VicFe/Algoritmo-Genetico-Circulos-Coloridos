@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmo Genético - Círculos Coloridos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Algoritmo Genético - Círculos Coloridos</h1>
+    <div id="population"></div>
+    <button id="generatePopulationButton">Gerar Nova População</button>
+    <div id="controls" style="display: none;">
+        <label for="crossoverMethod">Método de Crossover:</label>
+        <select id="crossoverMethod">
+            <option value="onePoint">Um Ponto</option>
+            <option value="uniform">Uniforme</option>
+            <option value="arithmetic">Aritmético</option>
+        </select>
+        <button id="crossoverButton">Aplicar Crossover</button>
+        <br><br>
+        <label for="mutationMethod">Método de Mutação:</label>
+        <select id="mutationMethod">
+            <option value="random">Aleatória</option>
+            <option value="small">Pequena</option>
+            <option value="directed">Dirigida</option>
+        </select>
+        <button id="mutationButton">Aplicar Mutação</button>
+        <br><br>
+        <button id="selectionButton">Selecionar Mais Escuros</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
